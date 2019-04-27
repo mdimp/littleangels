@@ -8,8 +8,8 @@ env_variables:
 handlers:
 
   - url: /
-    static_files: dist/index.html
-    upload: dist/index.html
+    static_files: dist/littleangels/index.html
+    upload: dist/littleangels/index.html
   - url: /
     static_dir: dist
 
