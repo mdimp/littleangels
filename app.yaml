@@ -1,6 +1,8 @@
 runtime: python27
 api_version: 1
 threadsafe: true
+env_variables:
+  API_KEY: AIzaSyCcJX4KIijB288dg9xnJbhFJgXyGpp9Y98
 handlers:
 - url: /
   static_files: dist/index.html
