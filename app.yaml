@@ -11,7 +11,7 @@ handlers:
     static_files: dist/littleangels/index.html
     upload: dist/littleangels/index.html
   - url: /
-    static_dir: dist
+    static_dir: dist/littleangels
 
 skip_files:
   - e2e/
