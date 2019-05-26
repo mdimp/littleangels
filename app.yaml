@@ -1,24 +1,12 @@
 runtime: python27
 api_version: 1
-threadsafe: yes
-
+threadsafe: true
 env_variables:
-  API_KEY: AIzaSyA57RQplHvLNPfjrTTWMaEpUf-3PgwGNuU
+  API_KEY: AIzaSyCcJX4KIijB288dg9xnJbhFJgXyGpp9Y98
 
 handlers:
-
-  - url: /
-    static_files: dist/littleangels/index.html
-    upload: dist/littleangels/index.html
-  - url: /
-    static_dir: dist/littleangels
-
-skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+- url: /
+  static_dir: dist

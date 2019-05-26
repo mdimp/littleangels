@@ -16,9 +16,26 @@
   
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="styles.6c73bf042e32dc460d1b.css"></head>
+<script>
+$(document).ready(function(){
+ 
+  $('.menu-tab').click(function(){
+    $('.menu-hide').toggleClass('show');
+    $('.menu-tab').toggleClass('active');
+    $('.menu-hide').css('display','block');
+  });
+  $('.nav-link').click(function(){
+    $('.menu-hide').removeClass('show');
+    $('.menu-tab').removeClass('active');
+  });
+  
+});
+</script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.d8bc307f97cf8249f544.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.1ef83d22ada557f4a131.js"></script><script type="text/javascript" src="main.14b55720df3b37903545.js"></script></body>
+
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.1ef83d22ada557f4a131.js"></script><script type="text/javascript" src="main.11b6622f333202dd8972.js"></script></body>
 </html>
